@@ -35,6 +35,7 @@ npm run dev
 
 ## Production considerations
 
+- View the production version [here](https://github.com/Anthony8044/anthony_stoltzfus_frontend_engineer_technical_assessment) or find it in the "About" section of this repo
 - No considerations need to be taken into account as this project does not have any secret (.env) because there is no database or other production secrets
 
 ## Assumptions
@@ -42,6 +43,11 @@ npm run dev
 - The freedom of layout and page routing with home(/), artist(/artist/{artistid} showing 5 related albums) and track(/track/{trackId} showing track, reviews) 
 - One of the main assumptions of this project is the use of sesssion storage to store reviews as it is stated that should be "persisting within the same browser session" on the assessment document
 - Freedom to use alternate frameworks of ReactJS like NextJS
+
+## Bonus
+
+- PWA has beenn implemented in this project! Click install app on chrome or other browsers.
+- Unfortunately, I did not impletement unit testing for this project as nextJS 13 does not have a clear way or pattern to implement testing.
 
 ## 📷 Screens
 
