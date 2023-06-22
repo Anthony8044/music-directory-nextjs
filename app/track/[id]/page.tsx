@@ -38,7 +38,13 @@ export default async function Track({
     <main className="flex flex-col items-center min-h-screen py-8 px-[5%] md:px-[10%] font-noto">
       <div className="flex w-full">
         <Link href={`/`} className="pb-8 ">
-          <Button>
+          <Button
+            role="button"
+            type="button"
+            name="homeButton"
+            id="homeButton"
+            aria-label="homeButton"
+          >
             <Home size={20} />
           </Button>
         </Link>
@@ -60,8 +66,8 @@ export default async function Track({
               <Image
                 src={item.artworkUrl100}
                 alt={item.trackName}
-                width={300}
-                height={300}
+                width={200}
+                height={200}
                 className={" rounded-lg shadow-2xl"}
                 loading="lazy"
                 placeholder="blur"

@@ -28,7 +28,7 @@ const TrackCard = ({
             width={100}
             height={100}
             className={
-              " max-w-[100px] max-h-[100px] rounded-lg shadow-2xl m-2 transition duration-150 ease-in-out hover:scale-105"
+              " max-w-[100px] rounded-lg shadow-2xl m-2 transition duration-150 ease-in-out hover:scale-105"
             }
             loading="lazy"
             placeholder="blur"
@@ -44,9 +44,7 @@ const TrackCard = ({
           {item.trackName}
         </div>
         <div>
-          {item.collectionName === "404 Not Found"
-            ? "-"
-            : "item.collectionName"}
+          {item.collectionName === "404 Not Found" ? "-" : item.collectionName}
         </div>
       </Link>
       <Link

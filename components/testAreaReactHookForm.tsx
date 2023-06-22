@@ -63,7 +63,7 @@ export function TextareaReactHookForm({ trackId }: { trackId: string }) {
                     defaultValue={field.value}
                   >
                     <FormControl>
-                      <SelectTrigger>
+                      <SelectTrigger aria-label="ratingButton">
                         <SelectValue placeholder="Select Rating" />
                       </SelectTrigger>
                     </FormControl>

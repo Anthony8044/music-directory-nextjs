@@ -35,7 +35,13 @@ export default async function Artist({
     <main className="flex flex-col items-center min-h-screen py-8 px-[5%] md:px-[10%] font-noto">
       <div className="flex w-full">
         <Link href={`/`} className="pb-8 ">
-          <Button>
+          <Button
+            role="button"
+            type="button"
+            name="homeButton"
+            id="homeButton"
+            aria-label="homeButton"
+          >
             <Home size={20} />
           </Button>
         </Link>

@@ -36,7 +36,7 @@ export function Reviews({ trackId }: { trackId: string }) {
           )
           .map((a: reviews, index) => (
             <div
-              className="p-6 mt-6 rounded-lg bg-slate-100 border-y-2"
+              className="p-6 mt-6 rounded-lg bg-slate-200 border-y-2"
               key={index}
             >
               <div className="flex">
@@ -47,7 +47,7 @@ export function Reviews({ trackId }: { trackId: string }) {
                   <div className="text-sm font-semibold text-black ">
                     {a.name}
                   </div>
-                  <div className="text-xs font-medium text-gray-400 ">
+                  <div className="text-xs font-medium text-gray-600 ">
                     {new Date(a.dateTime).toLocaleString("en-HK")}
                   </div>
                 </div>
