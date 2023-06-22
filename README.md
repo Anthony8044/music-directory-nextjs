@@ -35,7 +35,7 @@ npm run dev
 
 ## Production considerations
 
-- View the production version [here](https://github.com/Anthony8044/anthony_stoltzfus_frontend_engineer_technical_assessment) or find it in the "About" section of this repo
+- View the production version [here](https://anthony-stoltzfus-frontend-engineer-technical-assessment.vercel.app/) or find it in the "About" section of this repos
 - No considerations need to be taken into account as this project does not have any secret (.env) because there is no database or other production secrets
 
 ## Assumptions
